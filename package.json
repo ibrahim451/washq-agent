@@ -1,0 +1,29 @@
+{
+  "name": "washq-free-voice-agent",
+  "version": "1.1.0",
+  "description": "Production-hardened, free voice AI appointment agent for WashQ Detailing. Uses Groq (free AI) + Google Sheets (free storage) + Render.com (free hosting), with Twilio signature validation, rate limiting, a double-booking guard, SMS confirmations, and an admin dashboard.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node tests/test-agent.js",
+    "test:security": "node tests/test-security.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.4.0",
+    "googleapis": "^140.0.1",
+    "groq-sdk": "^0.7.0",
+    "node-cache": "^5.1.2",
+    "twilio": "^5.3.3",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
