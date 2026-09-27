@@ -1,0 +1,19 @@
+// Structured logging — makes production debugging on Render.com much easier.
+// Render's log viewer is basically a text search box, so consistent,
+// greppable lines beat scattered console.log calls once you're live.
+
+const winston = require("winston");
+
+const logger = winston.createLogger({
+  level: process.env.LOG_LEVEL || "info",
+  format: winston.format.combine(
+    winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
+    winston.format.printf(({ timestamp, level, message, ...meta }) => {
+      const extra = Object.keys(meta).length ? " " + JSON.stringify(meta) : "";
+      return `${timestamp} [${level.toUpperCase()}] ${message}${extra}`;
+    })
+  ),
+  transports: [new winston.transports.Console()],
+});
+
+module.exports = logger;
