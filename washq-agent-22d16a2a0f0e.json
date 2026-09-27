@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "washq-agent",
+  "private_key_id": "22d16a2a0f0e22ae6c31a96bb37075f0ae636650",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8tutp8ICfCrUg\nABP6YyJKoQ0K+qOGf0bXDa4IfuvvOd9NIABB3APYWKy42G1RC8UHhZ/6xn/2+EMc\nObbmd0TcYCoP7CHOaPyGpKl2F6sgBlBWXEA/4OkvD0OX+3d+ptBqonnm3Z9KZwrw\ndkWt+HR356KmLpBcbrQ8QRoHDJwIVIWzCdwJZBbVang6RGXOqk9dnp1s+bDslCtH\nkkR13QHcKmXx37x06s5zYZFoAaA/WM9e22Olb3B/+gwRUtxDFvpx8TnB++6tySH3\nb5vC8XK4lGX3WOlCLW4OwyzyZtiKJO2Tb7wO4i4hYLIqBg3TS0vybhyfXFGz6f3k\nGREQbUa3AgMBAAECggEAVBNywpoh07mjhIREYlN0Xadu9itAW5Ws6/buSF6zors3\n31aYhr8M/4BSQ3A5E9iYiYdhBQsWy+NDkvmroPYWOdCmLL3ZOerQRvRpg3F8DiKB\n/FfRUCRV/19fkAC69jQ/uqJ0iQTICQ/rccJfvOhqi1kpv7wTGPtBVW7zt5xIj/TE\nFTOCez+sETySSZYvcoEODpTIhjP9DvCyHJDundh+MaxOv6tfbyTt6dP5pFptteZx\n62a+6ZymRsGJ/NJOsotkxEwH2w+m1K2ze/ohKKKoYM6OkV9aLCMQDeHsmBPi8/Jk\nB60tHD8YGr0IdSRq42o3qYMvEqxS753uWMf7uYUBAQKBgQDnp2yp22LVdTj9Jt35\nrI+Es06ySdR25Bd+0JWOdorqSjIsGlVM/cOgJXRtaa31thzi0n5FH8vkknPBZUxj\nMQfmFbm5rF2hYfSHQ/3XYSiHqvr1Tcst7eMznAd9AG445nYtgj/z9d7UyuXg7E3d\nS/lTQ9J9cy9K9LxTOR0D2S6dQQKBgQDQjDj71KkTWtJj5H0WL5pAfTifKkKj3nTp\n7tmuqSRKBKojC8ua4PDztjpoC7AuwB5g3L2LPRk6W68SlyfP4Y4YRfmQVIo1DzAw\nxarITZ7k9Jpo9wInUShmmBn0I/piuQLwKpFBGOxx0ZqLyBoAhJwsBzmBfH5XdoV8\nCO/FumdN9wKBgBPWNmvlKXV18EddSKzUpgWLBTYnNFZp+ckWO3hTllmxuNIl/x/0\nqwfPrUShRBBCY/7YX4+zxVXxZJAvCHeF/1MokRrhM7NaHAJpRBdpbnsPnSXcX4Wz\nVT1aIxoFK2sb8Qq8mJVffJFkPoMgORq2IseKiz/K2UXl5yqJPX7S3jcBAoGBAJhr\nA3K6eF/W7xFm+yzt2ZTscCeT4WSWv2gB00LeB9G5GwfGJSaq5C+arZFBiaCBdTJh\n4n4TR47pV0kFBGngddOzwLQFtYUV9qiOr0T5xfmb9AZnEUHfBOIGpGFUsjjY8xbI\nZaToLFb7VDJ5KtfaE7HyDctfS49s5h5DAcrHc5z9AoGBAK/qGwcfGsVLHEtTlV3f\nRztftLVTTc97CZzBzcEercLpyGumgxsWPf4LEtcQBb0vs+I8cyehc694HUZGq4wN\ntEkaVRurO7mUY9IP559dcBUKUBGJv7QfbLcFGEGVH5r9P9JvRfk5CZruQ4VfHiKG\nF/1OLQ1Q+m/DHR3+30m9G/BQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "washq-agent@washq-agent.iam.gserviceaccount.com",
+  "client_id": "104657466156509867137",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/washq-agent%40washq-agent.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

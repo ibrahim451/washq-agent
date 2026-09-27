@@ -1,0 +1,45 @@
+# ══════════════════════════════════════════════════════════
+#  WashQ Free Voice Agent — Environment Variables
+#  Copy this file to .env and fill in your values
+#  NEVER upload your .env to GitHub
+# ══════════════════════════════════════════════════════════
+
+PORT=3000
+
+# ── TWILIO (Phone) ─────────────────────────────────────
+# Get from: https://console.twilio.com (top of dashboard)
+# Free: $15 trial credit included on signup
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_AUTH_TOKEN=your_auth_token_here
+TWILIO_PHONE_NUMBER=+19145550001
+
+# ── GROQ (Free AI) ─────────────────────────────────────
+# Get from: https://console.groq.com → API Keys → Create
+# 100% free — 500K tokens/day, 14400 requests/day
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# ── GOOGLE SHEETS (Free Appointment Storage) ───────────
+GOOGLE_SHEET_ID=your_sheet_id_here
+GOOGLE_SERVICE_ACCOUNT_EMAIL=washq-agent@your-project-id.iam.gserviceaccount.com
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvQIBAD...(your key)...==\n-----END PRIVATE KEY-----\n"
+
+# ── SECURITY (Production Hardening) ────────────────────
+# Full explanation and setup walkthrough: PRODUCTION_HARDENING.md
+#
+# Must match EXACTLY what Twilio calls — your ngrok https URL while
+# testing locally, your Render URL once deployed. Required for
+# Twilio signature validation to succeed.
+PUBLIC_BASE_URL=https://your-app.onrender.com
+#
+# Set to "true" ONLY to disable signature validation for local dev
+# if it's blocking you. NEVER set this to true in production.
+SKIP_TWILIO_VALIDATION=false
+
+# ── ADMIN DASHBOARD ─────────────────────────────────────
+# Protects the /admin appointments view (username is always "admin").
+# Leave unset and the dashboard stays disabled (503) rather than open.
+ADMIN_PASSWORD=choose_a_strong_password_here
+
+# ── LOGGING (optional) ──────────────────────────────────
+# error | warn | info | debug — defaults to info
+LOG_LEVEL=info
